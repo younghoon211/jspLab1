@@ -2,7 +2,7 @@
 <%@ page import="jdbc.connection.ConnectionProvider" %>
 <%@ page import="java.sql.*" %>
 <html>
-<head><title>연결 테스트</title></head>
+<head><title>연결 테스트!</title></head>
 <body>
 <%
 	try (Connection conn = ConnectionProvider.getConnection()) {
